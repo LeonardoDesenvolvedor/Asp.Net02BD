@@ -23,8 +23,8 @@ namespace Asp.NetBD02
             {
                 cmd.Connection = Conexao.Connection;
                 cmd.CommandText = @"insert into cliente
-                                    (cli_nome, cli_logradouro, cli_numero, cli_complemento, cli_bairro, cli_cidade, cli_uf)
-                              values(@nome, @logradouro, @numero, @complemento, @bairro, @cidade, @uf)";
+                                    (cli_nome, cli_logradouro, cli_numero, cli_complemento, cli_bairro, cli_cidade, cli_uf, cli_sexo)
+                              values(@nome, @logradouro, @numero, @complemento, @bairro, @cidade, @uf, @sexo)";
 
                 cmd.Parameters.AddWithValue("nome", txtNome.Text);
                 cmd.Parameters.AddWithValue("logradouro", txtLogradouro.Text);
@@ -33,6 +33,7 @@ namespace Asp.NetBD02
                 cmd.Parameters.AddWithValue("bairro", txtBairro.Text);
                 cmd.Parameters.AddWithValue("cidade", txtCidade.Text);
                 cmd.Parameters.AddWithValue("uf", txtUf.Text);
+                cmd.Parameters.AddWithValue("sexo", txtSexo.Text);
 
 
                 Conexao.Conectar();
