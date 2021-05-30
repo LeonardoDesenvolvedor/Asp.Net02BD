@@ -11,17 +11,17 @@ namespace Asp.NetBD02
 {
 
 
-    public partial class Inserir1
+    public partial class Detalhes
     {
 
         /// <summary>
-        /// rfvNome control.
+        /// txtID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNome;
+        protected global::System.Web.UI.WebControls.TextBox txtID;
 
         /// <summary>
         /// txtNome control.
@@ -33,15 +33,6 @@ namespace Asp.NetBD02
         protected global::System.Web.UI.WebControls.TextBox txtNome;
 
         /// <summary>
-        /// rfvLogradouro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvLogradouro;
-
-        /// <summary>
         /// txtLogradouro control.
         /// </summary>
         /// <remarks>
@@ -49,15 +40,6 @@ namespace Asp.NetBD02
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLogradouro;
-
-        /// <summary>
-        /// rfvNumero control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNumero;
 
         /// <summary>
         /// txtNumero control.
@@ -78,15 +60,6 @@ namespace Asp.NetBD02
         protected global::System.Web.UI.WebControls.TextBox txtComplemento;
 
         /// <summary>
-        /// rfvBairro control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvBairro;
-
-        /// <summary>
         /// txtBairro control.
         /// </summary>
         /// <remarks>
@@ -94,15 +67,6 @@ namespace Asp.NetBD02
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtBairro;
-
-        /// <summary>
-        /// rfvCidade control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCidade;
 
         /// <summary>
         /// txtCidade control.
@@ -114,48 +78,21 @@ namespace Asp.NetBD02
         protected global::System.Web.UI.WebControls.TextBox txtCidade;
 
         /// <summary>
-        /// rfvUf control.
+        /// textUf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvUf;
+        protected global::System.Web.UI.WebControls.TextBox textUf;
 
         /// <summary>
-        /// txtUf control.
+        /// txtSexo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUf;
-
-        /// <summary>
-        /// ddlSexo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlSexo;
-
-        /// <summary>
-        /// btnSalvar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSalvar;
-
-        /// <summary>
-        /// lblResultado control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblResultado;
+        protected global::System.Web.UI.WebControls.TextBox txtSexo;
     }
 }

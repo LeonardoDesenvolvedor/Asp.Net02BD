@@ -1,8 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Inserir.aspx.cs" Inherits="Asp.NetBD02.Inserir" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Inserir.aspx.cs" Inherits="Asp.NetBD02.Inserir1" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 
     <div class="text-center text-primary">
         <h2>Cadastro de Clientes</h2>
@@ -57,22 +59,23 @@
             <asp:TextBox ID="txtUf" runat="server" MaxLength="2" CssClass="form-control"></asp:TextBox>
         </div>
     </div>
-    <div class="row" style="margin-top: 2px">
-        <div class="text-right col-md-4">
-            <label>Sexo:</label>
-            <asp:DropDownList ID="txtSexo" runat="server" MaxLength="1" CssClass="form-control">
-            <asp:ListItem Value=""></asp:ListItem>
-            <asp:ListItem Value="F">Feminino</asp:ListItem>
-            <asp:ListItem Value="M">Masculino</asp:ListItem>
-            </asp:DropDownList>
 
+    <div class="row" style="margin-top: 15px">
+        <div class="col-md-2">
+            <label>Sexo:</label>
+
+            <asp:DropDownList ID="ddlSexo" runat="server" CssClass="form-control">
+                <asp:ListItem Value=""></asp:ListItem>
+                <asp:ListItem Value="F">Feminino</asp:ListItem>
+                <asp:ListItem Value="M">Masculino</asp:ListItem>
+            </asp:DropDownList>
         </div>
+
     </div>
 
     <div class="row" style="margin-top: 15px">
 
         <div class="text-right col-md-12">
-
             <asp:Button ID="btnSalvar" CssClass="btn btn-primary" runat="server" Text="Salvar" OnClick="btnSalvar_Click" />
         </div>
     </div>
@@ -83,5 +86,6 @@
             <asp:Label ID="lblResultado" CssClass="text-success" runat="server"></asp:Label>
         </div>
     </div>
+
 
 </asp:Content>

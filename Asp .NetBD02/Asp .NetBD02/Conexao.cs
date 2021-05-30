@@ -38,6 +38,7 @@ namespace Asp.NetBD02
         }
         #endregion
 
+
         #region Metodo Desconectar
 
         public static void Desconectar()
