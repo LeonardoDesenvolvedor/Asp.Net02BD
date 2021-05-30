@@ -14,7 +14,7 @@ namespace Asp.NetBD02
         private static string Server = "localhost";
         private static string Database = "web_cliente";
         private static string User = "root";
-        private static string Password = "00";
+        private static string Password = "0000";
         private static string connectionStrign = $@"Server={Server};Database={Database};
                                                      Uid={User};Pwd={Password};SslMode=none;
                                                      Charset=utf8;";
