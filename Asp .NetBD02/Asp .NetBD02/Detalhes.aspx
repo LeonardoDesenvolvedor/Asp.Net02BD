@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Detalhes.aspx.cs" Inherits="Asp.NetBD02.Detalhes" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="detalhes.aspx.cs" Inherits="Asp.NetBD02.Detalhes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="text-center text-primary">
+
+     <div class="text-center text-primary">
         <h2>Consutar Dados do Cliente</h2>
 
     </div>
@@ -54,7 +54,7 @@
 
         <div class="col-md-2">
             <label>UF:</label>
-            <asp:TextBox ID="textUf" runat="server" MaxLength="100" CssClass="form-control" Enabled="false"></asp:TextBox>
+            <asp:TextBox ID="txtUf" runat="server" MaxLength="100" CssClass="form-control" Enabled="false"></asp:TextBox>
         </div>
     </div>
 
@@ -64,7 +64,6 @@
               <asp:TextBox ID="txtSexo" runat="server" MaxLength="9" CssClass ="form-control" Enabled="false"></asp:TextBox>
           </div>
       </div>
-
 
 
 </asp:Content>
