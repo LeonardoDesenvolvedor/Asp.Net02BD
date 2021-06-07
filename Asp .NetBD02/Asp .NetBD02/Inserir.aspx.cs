@@ -42,7 +42,7 @@ namespace Asp.NetBD02
 
 				cmd.ExecuteNonQuery();
 				Response.Redirect("Listar.aspx");
-
+		
                 //lblResultado.Text = "Inserido com sucesso ";
 
             }

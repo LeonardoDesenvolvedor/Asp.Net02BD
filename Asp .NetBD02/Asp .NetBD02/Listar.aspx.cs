@@ -14,8 +14,8 @@ namespace Asp.NetBD02
         protected void Page_Load(object sender, EventArgs e)
         {
             CarregarClientes();
-
         }
+
         private void CarregarClientes()
         {
 

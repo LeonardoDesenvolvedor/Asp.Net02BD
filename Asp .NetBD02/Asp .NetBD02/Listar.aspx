@@ -5,12 +5,9 @@
     <%--cdn font awesome--%>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-
     <script src="Scripts/jquery-3.0.0.slim.js"></script>
 
-
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" />
-
 
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"> </script>
 
@@ -48,18 +45,17 @@
                         <td>
                             <%# DataBinder.Eval(Container.DataItem, "cli_nome")%>
                         </td>
-
                         <td>
 
                             <asp:LinkButton ID="lnkDetalhes" runat="server">
                              <a href='<%# Eval("cli_id", "detalhes.aspx?id={0}")%>'> 
                              <span class="fas fa-eye"></span></a>
-                            </asp:LinkButton>
+                            </asp:LinkButton>&nbsp 
 
                             <asp:LinkButton ID="lnkEditar" runat="server"> 
                              <a href='<%# Eval("cli_id", "editar.aspx?id={0}") %>'>
                             <span class="fas fa-pencil-alt"></span></a>
-                            </asp:LinkButton>
+                            </asp:LinkButton>&nbsp
 
                             <asp:LinkButton ID="lnkRemover" runat="server">
                              <a href='<%# Eval("cli_id", "remover.aspx?id={0}") %>'>
@@ -69,7 +65,7 @@
                     </tr>
                 </ItemTemplate>
 
-                  <FooterTemplate>
+                <FooterTemplate>
                     </table>
                 </FooterTemplate>
 
@@ -89,7 +85,6 @@
             "language": {
                 "url": "http://cdn.datatables.net/plug-ins/1.10.20/i18n/Portuguese-Brasil.json"
             }
-
         });
     </script>
 </asp:Content>
